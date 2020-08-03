@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lógica de programação com javascript</title>
+</head>
+<body>
+  <h1>Lógica de programação com javascript</h1>
+  <script>
+    //Pedir para o usuário digitar um número
+    //converter em número inteiro
+    var num1 = prompt("Digite um número");
+    num1 = parseFloat(num1);
+
+    //Pedir para o usuário digitar outro número
+    //converter em número inteiro
+    var num2 = prompt("Digite outro número");
+    num2 = parseFloat(num2);
+
+  
+    /*
+      Mostrar no alert o seguinte texto:
+      o resto da divisão de (n1) por (n2) é: (resultado);
+    */
+    alert("O resto da divisão de "+ num1 +" por "+num2+" é: "+ ( num1 % num2));
+
+     /*
+      Mostrar no alert o seguinte texto:
+      o número (n1) elevado a (n2) é: (resultado);
+    */
+    alert("O número " + num1 +" elevado a "+ num2 +" é: "+( num1 ** num2));
+  </script>
+</body>
+</html>
